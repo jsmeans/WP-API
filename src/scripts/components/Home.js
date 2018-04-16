@@ -8,7 +8,7 @@ class Home extends React.Component {
 
     	let pageData = DataStore.getPageBySlug('home');
         let acf = pageData.acf.modules;
-
+        
 
         return (
         	<div className="main">
@@ -19,7 +19,7 @@ class Home extends React.Component {
 	            </div>
 	            {acf.map(function(acf_objects, index) {
 
-                	console.log(acf_objects.acf_fc_layout);
+                	// console.log(acf_objects.acf_fc_layout);
                 	var block = acf_objects.acf_fc_layout;
                 	var module;
 	                if (block == 'intro') {

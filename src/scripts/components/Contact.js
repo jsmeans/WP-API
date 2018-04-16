@@ -10,7 +10,7 @@ class Contact extends React.Component {
         let pageData = DataStore.getPageBySlug('contact');
         let acf = pageData.acf.modules;    
         
-        console.log(acf);
+        // console.log(acf);
         return (
             <div className="main">
                 <div id="hero">
@@ -24,7 +24,7 @@ class Contact extends React.Component {
 
                 {acf.map(function(acf_objects, index) {
 
-                    console.log(acf_objects.acf_fc_layout);
+                    // console.log(acf_objects.acf_fc_layout);
                     var block = acf_objects.acf_fc_layout;
                     var module;
                     if (block == 'intro') {

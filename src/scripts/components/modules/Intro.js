@@ -1,7 +1,7 @@
 class intro extends React.Component {
    render() {
         let acf = this.props.modules;
-        console.log(acf);
+        // console.log(acf);
         return (
             
                <div id="introduction">

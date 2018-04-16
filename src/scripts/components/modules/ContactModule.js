@@ -1,9 +1,9 @@
 class Contact extends React.Component {
    render() {
         let acf = this.props.modules;
-        console.log(acf);
+        
         let ContactBlocks = acf.contact_block
-        console.log(ContactBlocks);
+       
         return (
             <div className="page-container">
 
@@ -19,7 +19,7 @@ class Contact extends React.Component {
               <div className="block-grid">
               	{ContactBlocks.map(function(ContactBlocks, index) {
 
-                    console.log(ContactBlocks.linkImage);
+                    // console.log(ContactBlocks.linkImage);
                     var bg;
 					// if (ContactBlocks.linkImage.length > 0) {
 					//   bg = ContactBlocks.linkImage;
