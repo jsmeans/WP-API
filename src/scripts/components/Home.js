@@ -8,8 +8,7 @@ class Home extends React.Component {
 
     	let pageData = DataStore.getPageBySlug('home');
         let acf = pageData.acf.modules;
-        
-
+    
         return (
         	<div className="main">
 	            <div id="hero">
